@@ -1,0 +1,12 @@
+sources:
+  - name: snowflake_raw
+    database: raw  
+    schema: jaffle_shop  
+    tables:
+      - name: books
+      - name: school
+  - name: snowflake_raw2
+    database: raw  
+    schema: stripe  
+    tables:
+      - name: fees  
